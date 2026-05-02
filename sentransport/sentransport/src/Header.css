@@ -1,0 +1,14 @@
+.header{
+    background-color: #0a6e31;
+    padding: 20px;
+    text-align: center;
+    color:white;
+}
+.header-titre{
+    font-size: 2rem;
+    margin: 0;
+}
+.header-soustitre{
+    font-size: 1.25rem;
+    margin: 0;
+}
