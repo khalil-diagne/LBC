@@ -1,6 +1,8 @@
 
 import { useState } from 'react';
 import './App.css';
+import React from 'react';
+import Test from './Test';
 
 import Header from './Header';
 import Recherche from './Recherche';
@@ -38,6 +40,7 @@ const lignes = [
   return (
     <div className="App">
       <Header />
+      <Test />
 
       <main className="contenu">
         <Recherche valeur={recherche} onChange={setRecherche} />
@@ -60,8 +63,7 @@ const lignes = [
           />
         ))}
 
-        {ligneSelectionnee && (
-          <DetailLigne ligne={ligneSelectionnee} />
+        {ligneSelectionnee && ( <DetailLigne ligne={ligneSelectionnee} />
         )}
       </main>
 
