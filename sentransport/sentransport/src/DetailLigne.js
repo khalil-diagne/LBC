@@ -4,7 +4,7 @@ function DetailLigne({ ligne }) {
   return (
     <div className="detail-ligne">
       <h3 className="detail-titre">
-        Ligne {ligne.numero} : {ligne.depart} &rarr; {ligne.arrivee}
+        Ligne {ligne.numero} : {ligne.depart} &rarr; {ligne.arrive}
       </h3>
 
       <p className="detail-info">
